@@ -24,7 +24,7 @@ function App() {
     },
   ];
   return (
-    <Expenses className = "expenses" expenses = {expenses}/>
+    <Expenses expenses = {expenses}/>
   )
 }
 
