@@ -1,7 +1,7 @@
 import Card from '../GenericUI/Card';
 import ExpenseItem from './ExpenseItem'
 
-function Expenses(props) {
+const Expenses = (props) => {
     
 return (
     <Card className = 'expenses'>
