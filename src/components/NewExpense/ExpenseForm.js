@@ -10,23 +10,29 @@ const ExpenseForm = () => {
     })
 
     const titleChangeHandler = (event) => {
-        setUserInput({
-            ...userInput,
-            setEnteredTitle: event.target.value
+        setUserInput((prevState) => {
+            return {
+                ...prevState,
+                setEnteredTitle: event.target.value
+            }
         });
     }
 
     const amounthangeHandler = (event) => {
-        setUserInput({
-            ...userInput,
-            setEnteredAmount: event.target.value
+        setUserInput((prevState) => {
+            return {
+                ...prevState,
+                setEnteredAmount: event.target.value
+            }
         });
     }
 
     const datehangeHandler = (event) => {
-        setUserInput({
-            ...userInput,
-            setEnteredDate: event.target.value
+        setUserInput( (prevState) => {
+            return {
+                ...prevState,
+                setEnteredDate: event.target.value
+            }
         });
     }
 
