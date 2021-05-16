@@ -3,6 +3,7 @@ import {useState} from 'react'
 import './ExpenseForm.css';
 
 const ExpenseForm = () => {
+    // Multi State Combined Approach
     const [userInput, setUserInput] = useState({
         setEnteredTitle: '',
         setEnteredAmount: '',
