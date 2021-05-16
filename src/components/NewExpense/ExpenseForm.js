@@ -4,37 +4,20 @@ import './ExpenseForm.css';
 
 const ExpenseForm = () => {
     // Multi State Combined Approach
-    const [userInput, setUserInput] = useState({
-        setEnteredTitle: '',
-        setEnteredAmount: '',
-        setEnteredDate: ''
-    })
+    const [enteredTitle, setEnteredTitle] = useState('');
+    const [enteredAmount, setEnteredAmount] = useState('');
+    const [enteredDate, setEnteredDate] = useState('');
 
     const titleChangeHandler = (event) => {
-        setUserInput((prevState) => {
-            return {
-                ...prevState,
-                setEnteredTitle: event.target.value
-            }
-        });
+        setEnteredTitle(event.target.value);
     }
 
     const amounthangeHandler = (event) => {
-        setUserInput((prevState) => {
-            return {
-                ...prevState,
-                setEnteredAmount: event.target.value
-            }
-        });
+        setEnteredAmount(event.target.value);
     }
 
     const datehangeHandler = (event) => {
-        setUserInput( (prevState) => {
-            return {
-                ...prevState,
-                setEnteredDate: event.target.value
-            }
-        });
+        setEnteredDate(event.target.value);
     }
 
     return (
