@@ -2,8 +2,6 @@ import Card from '../GenericUI/Card';
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css'
 const ExpenseItem = (props) => {
-    console.log(props)
-  
     return (
         <Card className='expense-item'>
         <ExpenseDate date={props.date} />
