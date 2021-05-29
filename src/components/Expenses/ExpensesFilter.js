@@ -22,5 +22,4 @@ const ExpensesFilter = (props) => {
   );
 };
 
-
 export default ExpensesFilter;
