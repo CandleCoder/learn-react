@@ -1,5 +1,8 @@
 # Learn React
 
+[![DeepScan grade](https://deepscan.io/api/teams/16756/projects/20079/branches/534972/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16756&pid=20079&bid=534972)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
